@@ -1,0 +1,48 @@
+{
+    "name": "dieze/dz-message-module",
+    "description": "Module ZF2 de gestion de messages d'erreurs et d'informations",
+    "type": "library",
+    "keywords": [
+        "zf2",
+        "module",
+        "message",
+        "erreur",
+        "error",
+        "informations",
+        "library"
+    ],
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/dieze/DzMessageModule",
+    "authors": [
+        {
+            "name": "Desfourneaux Adrien (aka Dieze)",
+            "email": "dieze51@gmail.com",
+            "role": "Creator"
+        }
+    ],
+    "support": {
+        "email": "dieze51@gmail.com",
+        "issues": "https://github.com/dieze/DzMessageModule/issues",
+        "wiki": "https://github.com/dieze/DzMessageModule/wiki",
+        "source": "https://github.com/dieze/DzMessageModule"
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zend-eventmanager": "~2.1",
+        "zendframework/zend-inputfilter": "~2.1",
+        "zendframework/zend-modulemanager": "~2.1",
+        "zendframework/zend-mvc": "~2.1",
+        "zendframework/zend-servicemanager": "~2.1",
+        "zendframework/zend-stdlib": "~2.1",
+        "zendframework/zend-view": "~2.1"
+    },
+    "require-dev": {
+        "phpdocumentor/phpdocumentor": "2.*",
+        "fabpot/php-cs-fixer": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "DzMessageModule": "src/"
+        }
+    }
+}
